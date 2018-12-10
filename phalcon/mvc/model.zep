@@ -1650,7 +1650,7 @@ abstract class Model implements EntityInterface, ModelInterface, ResultInterface
 	 * }
 	 * </code>
 	 */
-	public function getMessages(var filter = null) -> <MessageInterface[]>
+	public function getMessages(var filter = null) -> array
 	{
 		var filtered, message;
 
